@@ -13,11 +13,11 @@
 	date_default_timezone_set("Asia/Kuala_Lumpur");
 	include 'connect.php';
 	require __DIR__ . "/vendor/autoload.php";
-	use Dotenv\Dotenv;
+	//use Dotenv\Dotenv;
 	use Twilio\Rest\Client;
 
-	$dotenv=Dotenv::createImmutable(__DIR__);
-	$dotenv->load();
+	//$dotenv=Dotenv::createImmutable(__DIR__);
+	//$dotenv->load();
 
 	
 
