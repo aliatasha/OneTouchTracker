@@ -88,10 +88,11 @@
 				echo "<td>";
 					echo $row3['contact'];
 				echo "</td>";
-				send_message($row3['contact']);
 				echo "<td>";
 						echo date("d/m/Y H:i:s");
 				echo "</td>";
+				send_message($row3['contact']);
+				
 			echo "</tr>";
 		}
 	}
