@@ -25,8 +25,6 @@
 
 		$twilioSid    = getenv("TWILLIO_SID");
 		$twilioToken  = getenv("TWILLIO_TOKEN");
-
-		echo $twilioSid ." ". $twilioToken ."huihiuhihi";
 		
 		$twilio = new Client($twilioSid, $twilioToken);
 		$message = $twilio->messages
